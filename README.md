@@ -2,8 +2,18 @@
 <head>
   <meta charset="UTF-8">
   <title>Surprise Gift 🎉</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
+    @media (max-width: 600px) {
+  body {
+    font-size: 1.2em;
+  }
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+  /* Add more responsive styles here */
+}
     body {
       height: 100vh;
       margin: 0;
